@@ -47,7 +47,7 @@ bot.on('message', function (user, userID, channelID, message, rawEvent) {
         console.log("com:" + command + " | parm:" + parm);
         commands(command.toLowerCase(), parm, userID, channelID);
     }
-    else if((message[0] === '[' && message[message.length-1] === ']') || (message[0] === ']' && message[message.length-1] === '['))
+    else if((message[0] === '[' && message[message.length-1] === ']') || (message[0] === ']' && message[message.length-1] === '[') || (message[0] === ']' && message[message.length-1] === ']') || (message[0] === '[' && message[message.length-1] === '['))
     {
         console.log("meme");
         var meme = message.slice(1,message.length-1);
@@ -58,7 +58,7 @@ bot.on('message', function (user, userID, channelID, message, rawEvent) {
                     to: channelID,
                     message: memes[i]
                 });
-                found = true
+                found = true;
             }
         });
         if(!found)
