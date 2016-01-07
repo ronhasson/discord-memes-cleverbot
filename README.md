@@ -14,3 +14,9 @@ A Discord bot (using discord.io unofficial API)  that enables you to show memes 
  - You need [Node.js](https://nodejs.org) to run this bot, and you run it by typing in the command prompt: `node discord-memes-cleverbot.js`
  - You can only register new memes if you have the role that we called "Certified Regular Expressionist", you can remove that restriction in code, or change the name it looks for, do whatever you wish.
  - You can restrict clever bot to a certain channel to prevent spam (it's one of the variables at the top of the file).
+
+
+Many thanks to [izy521](https://github.com/izy521) for building [discord.io](https://github.com/izy521/discord.io) and answering my questions.
+
+
+Feel free to fork, change, destroy, or do whatever with my code.
