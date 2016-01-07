@@ -19,4 +19,4 @@ A Discord bot (using discord.io unofficial API)  that enables you to show memes 
 Many thanks to [izy521](https://github.com/izy521) for building [discord.io](https://github.com/izy521/discord.io) and answering my questions.
 
 
-Feel free to fork, change, destroy, or do whatever with my code. Yes, I am aware my code is ugly, but idc O:.
+Feel free to fork, change, destroy, or do whatever with my code. Yes, I am aware my code is ugly, but idc O:
